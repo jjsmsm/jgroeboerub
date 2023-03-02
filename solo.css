@@ -1,0 +1,267 @@
+* {
+    font-family: 'Merriweather', serif;
+font-family: 'Space Mono', monospace;
+color: rgb(12, 248, 16);
+
+
+}
+
+nav { 
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+nav img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    flex:1;
+    text-align: right;
+   padding-right: 35px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.navbar ul li a {
+   color: rgb(81, 255, 0);
+   text-decoration: none;
+   font-size: 18px; 
+}
+
+.navbar ul li ::after{
+    content: '';
+    width: 0%;
+    height:2px;
+    background: #08ff3e;
+    display: block;
+    margin:auto;
+    transition: 0.5s;
+}
+
+.navbar ul li :hover::after {
+    width:100%;
+} 
+    
+    .header {
+        min-height: 100vh;
+        width:100%;
+        background: black;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        
+       
+    }
+
+    .text-box {
+        text-align: center;
+        color: white;
+    }
+    .text-box p {
+        margin-top: 20px;
+    }
+
+
+
+body {
+    margin: 0;
+}
+
+
+
+.hero-btn {
+    display:inline-block;
+    text-decoration: none;
+    color:rgb(13, 255, 0);
+    border: 1px solid rgb(53, 255, 8);
+    padding:12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position:relative;
+    cursor:pointer;
+    margin-top: 75px;
+}
+
+.hero-btn:hover {
+    background: #00d02d;
+    transition: 0.5s;
+}
+
+
+
+
+/* main textttt */
+
+.about{
+    width:100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+height: auto;
+width: 430px;
+}
+.about-text {
+    width: 550px;
+}
+ .main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+ }
+ .about-text h2{
+    color:white;
+    font-size:75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    
+ }
+ .about-text h5{
+    color:white;
+    letter-spacing:2px;
+    font-size:22px;
+    margin-bottom:25px;
+    text-transform: capitalize;
+    
+ }
+ .about-text p{
+    color:white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size:18px;
+    margin-bottom:45px;
+ }
+
+/* second block */
+
+.second-text {
+    text-align: center;
+    background: fixed;
+    background-color: rgb(78, 78, 81);
+    border-top: 5%;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.course-col{
+    flex-basis: 31%;
+    background: #6e69696c;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 8px 12px;
+    box-sizing:border-box;
+    transition: 0.5s;
+    display: inline-block;
+    width:50%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.5%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.course-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+   
+}
+
+
+
+
+
+
+
+
+.writing {
+    background: linear-gradient(rgb(78, 78, 81), black);
+    color: white;
+    text-align: center;
+    padding: 5px 1px;
+    font-size: 20px;
+}
+
+
+
+
+
+/* conclusion */
+
+.conclusion {
+    background: black;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+/* Email list */
+
+.email-list {
+    background: black;
+    padding: 100px 0px;
+    text-align: center;
+    font-size: 22px;
+    
+
+}
+
+input {
+    border-radius: 5px;
+    color: black;
+    height:20px;
+   width:150px;
+}
+
+input.click {
+    height:25px;
+    width: 55px;
+}
+
+
+
+input.click:hover {
+    background: #00d02d;
+}
+
+
+
+h2 {
+    font-size: 40px;
+}
+
+
+
+/* footer */
+
+footer {
+    text-align: center;
+    background: linear-gradient(black, rgb(78, 78, 81));
+    padding: 55px 0px;
+    font-size: 18px;
+}
+
+
+fa fa-instagram:hover {
+    background: white;
+}
+
+
+
+p.win {
+    font-family: 'Merriweather', serif;
+}
